@@ -1,0 +1,11 @@
+﻿<Window x:Class="ButtonColorChangeExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ButtonColorChangeExample" Height="200" Width="300">
+    <Grid>
+        <Button Content="Klicka här" Width="100" Height="50"
+                MouseEnter="MyButton_MouseEnter"
+                MouseLeave="MyButton_MouseLeave"
+                Click="MyButton_Click"/>
+    </Grid>
+</Window>
